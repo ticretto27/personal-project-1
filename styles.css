@@ -1,0 +1,168 @@
+/*top header guide*/
+
+.guide-background {
+  background-color: rgb(222, 238, 245);
+  margin-bottom: 20px;
+  margin-top: 0px;
+  
+  width: cover;
+}
+
+
+.guide {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.why, .list, .about {
+  padding: 50px 60px 0px 30px;
+  width: 60px;
+  height: 20px;
+  margin: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: rgb(36, 34, 34)
+  
+
+}
+
+.why {
+  border-right: solid 2px dimgrey;
+  line-height: 0px;
+  padding: 1px 25px 10px 30px;
+
+  
+}
+
+.list {
+  border-right: solid 2px dimgrey;
+  line-height: 0px;
+  padding: 1px 15px 10px 15px;
+  */*/for some reason when padding is affected the border is also affected??*/
+  
+}
+
+.about {
+  line-height: 0px;
+  padding: 1px 60px 10px 15px;
+}
+
+/*header styles*/
+
+h1 {
+  text-align: left;
+  font-weight: lighter;
+  font-family: "DynaPuff", system-ui;
+  font-size: 100px;
+  padding-bottom: 0;
+  color: rgb(222, 238, 245);
+}
+
+.title {
+  margin: 50px 60px 110px 60px;
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title p {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  padding: 0px 120px 100px 120px;
+  border-bottom: dotted 4px white;
+  border-width: 15px
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*font styles*/
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.red-hat-display-<uniquifier> {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.dynapuff-<uniquifier> {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*Why section*/
+
+.section-why {
+background-color: rgb(255, 255, 255, 0.2);
+border-radius: 35px;
+width: 650px;
+height: 230px;
+padding: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.section-why h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 2px;
+  padding-bottom: 15px;
+ 
+}
+
+.section-why p {
+
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+
+/*List section*/
+
+.animal-list{
+  background-color:black;
+  margin-top: 200px;
+  width: 1200px;
+  
+}
+
+body {
+  background-image: url('https://images6.alphacoders.com/325/thumb-1920-325041.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+}
+
+
+p {
+  text-align: center;
+}
